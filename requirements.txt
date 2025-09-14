@@ -1,0 +1,5 @@
+openai
+langchain_google_genai
+langchain_community
+unstructured
+streamlit

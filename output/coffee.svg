@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee">
+  <path id="coffee-handle" d="M18 8h1a4 4 0 0 1 0 8h-1">
+    <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1 10 14; 1.05 10 14; 0.95 10 14; 1 10 14" dur="3s" repeatCount="indefinite" begin="0s"/>
+  </path>
+  <path id="coffee-cup-body" d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z">
+    <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1 10 14; 1.05 10 14; 0.95 10 14; 1 10 14" dur="3s" repeatCount="indefinite" begin="0s"/>
+  </path>
+  <line id="coffee-steam-1" x1="6" y1="1" x2="6" y2="4">
+    <animate attributeName="y1" values="1; 0; 1; 2; 1" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="y2" values="4; 3; 4; 5; 4" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+  </line>
+  <line id="coffee-steam-2" x1="10" y1="1" x2="10" y2="4">
+    <animate attributeName="y1" values="1; 0; 1; 2; 1" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="y2" values="4; 3; 4; 5; 4" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
+  </line>
+  <line id="coffee-steam-3" x1="14" y1="1" x2="14" y2="4">
+    <animate attributeName="y1" values="1; 0; 1; 2; 1" dur="1.5s" repeatCount="indefinite" begin="0.4s"/>
+    <animate attributeName="y2" values="4; 3; 4; 5; 4" dur="1.5s" repeatCount="indefinite" begin="0.4s"/>
+  </line>
+</svg>
