@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-align-box-bottom-right">
+  <path id="bounding-box" stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path id="main-box" d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path id="line-left" d="M11 15v2">
+    <animate attributeName="d" values="M11 15v2;M11 11v6;M11 15v2" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </path>
+  <path id="line-middle" d="M14 11v6">
+    <animate attributeName="d" values="M14 11v6;M14 7v10;M14 11v6" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+  </path>
+  <path id="line-right" d="M17 13v4">
+    <animate attributeName="d" values="M17 13v4;M17 9v8;M17 13v4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+  </path>
+</svg>
