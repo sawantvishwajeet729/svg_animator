@@ -7,7 +7,6 @@ This repository contains a Streamlit application that utilizes a Large Language 
 ## Requirements
 To run the application, you will need to install the following libraries:
 
-* `openai`
 * `langchain_google_genai`
 * `langchain_community`
 * `unstructured`
