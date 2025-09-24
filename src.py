@@ -5,6 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import TextLoader
 from langchain_core.output_parsers import BaseOutputParser
+import streamlit as st
 
 #Setup the API key
 os.environ["GOOGLE_API_KEY"] = st.secrets['GOOGLE_API_KEY']
